@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reinforcement Learning: An Introduction</title>
+    <script src="libs/angular.js"></script>
+    <script src="libs/jquery.js"></script>
+    <script src="libs/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/controller.js"></script>
+</head>
+<body>
+<div id="RLApp" ng-app="RL" ng-controller="RLController">
+    <div class="figuresContainer">
+        <div ng-repeat="figure in figures track by $index">
+            <div class="figureContainer panel panel-default" ng-attr-id="{{figure.id}}">
+                <div class="figureTitle panel-heading">
+                    <h2 class="text-center">{{figure.title}}</h2>
+                </div>
+                <div class="imagesContainer panel-body">
+                    <div ng-repeat="imageName in figure.imageNames track by $index">
+                        <img ng-src="{{'images/' + imageName + '.png'}}">
+                    </div>
+                </div>
+                <div class="commentsContainer panel-footer">
+                    <div ng-repeat="comment in figure.comments track by $index">
+                        <h5 class="text-center">{{comment}}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
