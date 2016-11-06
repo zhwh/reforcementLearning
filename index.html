@@ -12,7 +12,7 @@
     <script src="js/controller.js"></script>
 </head>
 <body>
-<div id="RLApp" ng-app="RL" ng-controller="RLController">
+<div id="RLApp" ng-app="RL" ng-controller="RLController" data-ng-init="init()">
     <div class="figuresContainer">
         <div ng-repeat="figure in figures track by $index">
             <div class="figureContainer panel panel-default" ng-attr-id="{{figure.id}}">
@@ -21,7 +21,7 @@
                 </div>
                 <div class="imagesContainer panel-body">
                     <div ng-repeat="imageName in figure.imageNames track by $index">
-                        <img ng-src="{{'images/' + imageName + '.png'}}">
+                        <img ng-src="{{'images/' + imageName + '.png'}}" imageonload="imageLoaded()">
                     </div>
                 </div>
                 <div class="commentsContainer panel-footer">
