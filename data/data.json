@@ -100,6 +100,10 @@
   "title": "Figure 9.2: Semi-gradient n-steps TD algorithm on the 1000-state random walk task",
   "imageNames": ["9_2_1", "9_2_2"]
 }, {
+  "id": "9_5",
+  "title": "Figure 9.5: Fourier basis vs polynomials on the 1000-state random walk task",
+  "imageNames": ["9_5"]
+}, {
   "id": "9_8",
   "title": "Figure 9.8: Example of feature width’s effect on initial generalization and asymptotic accuracy",
   "imageNames": ["9_8_1", "9_8_2", "9_8_3", "9_8_4", "9_8_5"]
