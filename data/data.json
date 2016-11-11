@@ -111,4 +111,20 @@
   "id": "9_10",
   "title": "Figure 9.10: Single tiling and multiple tilings on the 1000-state random walk task",
   "imageNames": ["9_10"]
+}, {
+  "id": "10_1",
+  "title": "Figure 10.1: The cost-to-go function for Mountain Car task in one run",
+  "imageNames": ["10_1_1", "10_1_2", "10_1_3"]
+}, {
+  "id": "10_2",
+  "title": "Figure 10.2: Learning curves for semi-gradient Sarsa on Mountain Car task",
+  "imageNames": ["10_2"]
+}, {
+  "id": "10_3",
+  "title": "Figure 10.3: One-step vs multi-step performance of semi-gradient Sarsa on the Mountain Cartask",
+  "imageNames": ["10_3"]
+}, {
+  "id": "10_4",
+  "title": "Figure 10.4: Effect of the alpha and n on early performance of n-step semi-gradient Sarsa",
+  "imageNames": ["10_4"]
 }]
