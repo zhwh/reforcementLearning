@@ -127,4 +127,8 @@
   "id": "10_4",
   "title": "Figure 10.4: Effect of the alpha and n on early performance of n-step semi-gradient Sarsa",
   "imageNames": ["10_4"]
+}, {
+  "id": "10_5",
+  "title": "Figure 10.5: Differential semi-gradient Sarsa on the access-control queuing task",
+  "imageNames": ["10_5_1", "10_5_2"]
 }]
