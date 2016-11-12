@@ -131,4 +131,8 @@
   "id": "10_5",
   "title": "Figure 10.5: Differential semi-gradient Sarsa on the access-control queuing task",
   "imageNames": ["10_5_1", "10_5_2"]
+}, {
+  "id": "11_2",
+  "title": "Figure 11.2: Baird's Counterexample",
+  "imageNames": ["11_2"]
 }]
