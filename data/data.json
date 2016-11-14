@@ -44,6 +44,10 @@
   "title": "Figure 5.1: Approximate state-value functions for the blackjack policy",
   "imageNames": ["5_1_1", "5_1_2", "5_1_3", "5_1_4"]
 }, {
+  "id": "5_3",
+  "title": "Figure 5.3: The optimal policy and state-value function for blackjack found by Monte Carlo ES",
+  "imageNames": ["5_3_1", "5_3_2", "5_3_3", "5_3_4"]
+}, {
   "id": "5_4",
   "title": "Figure 5.4: Weighted importance sampling",
   "imageNames": ["5_4"]
