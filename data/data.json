@@ -135,4 +135,16 @@
   "id": "11_2",
   "title": "Figure 11.2: Baird's Counterexample",
   "imageNames": ["11_2"]
+}, {
+  "id": "12_3",
+  "title": "Figure 12.3: Off-line λ-return algorithm on 19-state random walk",
+  "imageNames": ["12_3"]
+}, {
+  "id": "12_6",
+  "title": "Figure 12.6: TD(λ) algorithm on 19-state random walk",
+  "imageNames": ["12_6"]
+}, {
+  "id": "12_7",
+  "title": "Figure 12.7: True online TD(λ) algorithm on 19-state random walk",
+  "imageNames": ["12_7"]
 }]
