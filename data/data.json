@@ -15,6 +15,10 @@
   "title": "Figure 2.5: Average performance of the gradient bandit algorithm",
   "imageNames": ["2_5"]
 }, {
+  "id": "2_6",
+  "title": "Figure 2.6: A parameter study of the various bandit algorithms",
+  "imageNames": ["2_6"]
+}, {
   "id": "3_5",
   "title": "Figure 3.5: Grid example with random policy",
   "imageNames": ["3_5"]
