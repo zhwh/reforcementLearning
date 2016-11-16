@@ -155,4 +155,15 @@
   "id": "12_7",
   "title": "Figure 12.7: True online TD(λ) algorithm on 19-state random walk",
   "imageNames": ["12_7"]
+}, {
+  "id": "E_1",
+  "title": "Return Specific Importance Sampling",
+  "imageNames": ["E_1_1", "E_1_2", "E_1_3", "E_1_4", "E_1_5"],
+  "comments": [
+    "This example is adapted from example 5.5, Infinite Variance",
+    "I made following modifications to the original example to demonstrate the advantage of return specific importance sampling",
+    "1. discount now is 0.5 instead of 1",
+    "2. the action BACK will always have reward +1, no matter what state it leads to",
+    "In this setting, the true state value is around 1.81"
+  ]
 }]
