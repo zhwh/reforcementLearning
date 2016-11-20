@@ -158,12 +158,15 @@
 }, {
   "id": "E_1",
   "title": "Return Specific Importance Sampling",
-  "imageNames": ["E_1_1", "E_1_2", "E_1_3", "E_1_4", "E_1_5"],
+  "imageNames": ["E_1_1", "E_1_2", "E_1_3", "E_1_4", "E_1_5", "E_1_6", "E_1_7"],
   "comments": [
     "This example is adapted from example 5.5, Infinite Variance",
     "I made following modifications to the original example to demonstrate the advantage of return specific importance sampling",
     "1. discount now is 0.5 instead of 1",
-    "2. the action BACK will always have reward +1, no matter what state it leads to",
-    "In this setting, the true state value is around 1.81"
+    "2. the action BACK will have reward +2 if leading to the state itself",
+    "In this setting, the true state value is around 3.45",
+    "PDWIS is biased and inconsistent, so theoretically it doesn't work",
+    "CPDWIS is still biased however consistent",
+    "Reference: http://psthomas.com/papers/Thomas2015c.pdf (3.9 3.10)"
   ]
 }]
