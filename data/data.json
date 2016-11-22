@@ -169,4 +169,14 @@
     "CPDWIS is still biased however consistent",
     "Reference: http://psthomas.com/papers/Thomas2015c.pdf (3.9 3.10)"
   ]
+}, {
+  "id": "E_2",
+  "title": "N-Step Tree Backup",
+  "imageNames": ["E_2"],
+  "comments": [
+    "This example is Windy Grid World",
+    "Target policy is greedy, behavior policy is epsilon-greedy",
+    "I use a small alpha (step size), although in deterministic environment, alpha = 1 is optimal",
+    "epsilon = 0.2, alpha = 0.1"
+  ]
 }]
