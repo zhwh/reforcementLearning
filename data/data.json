@@ -171,7 +171,7 @@
   ]
 }, {
   "id": "E_2",
-  "title": "N-Step Tree Backup",
+  "title": "N-Step Tree Backup & N-Step Q(σ)",
   "imageNames": ["E_2"],
   "comments": [
     "This example is Windy Grid World",
