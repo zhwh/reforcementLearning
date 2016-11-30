@@ -179,4 +179,11 @@
     "I use a small alpha (step size), although in deterministic environment, alpha = 1 is optimal",
     "epsilon = 0.2, alpha = 0.1"
   ]
+}, {
+  "id": "E_3",
+  "title": "Sum of TD errors",
+  "imageNames": ["E_3"],
+  "comments": [
+    "See SumOfTDErrors.pdf for more details"
+  ]
 }]
