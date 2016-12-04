@@ -163,8 +163,9 @@
     "This example is adapted from example 5.5, Infinite Variance",
     "I made following modifications to the original example to demonstrate the advantage of return specific importance sampling",
     "1. discount now is 0.5 instead of 1",
-    "2. the action BACK will have reward +2 if leading to the state itself",
-    "In this setting, the true state value is around 3.45",
+    "2. the transition from state s to state s will have reward +2",
+    "3. the action BACK will lead to state s or terminal state with equal probability",
+    "In this setting, the true state value is 2",
     "PDWIS is biased and inconsistent, so theoretically it doesn't work",
     "CPDWIS is still biased however consistent",
     "Reference: http://psthomas.com/papers/Thomas2015c.pdf (3.9 3.10)"
