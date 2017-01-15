@@ -1,4 +1,8 @@
 [{
+  "id": "2_1",
+  "title": "Figure 2.1: An exemplary bandit problem from the 10-armed testbed",
+  "imageNames": ["2_1"]
+}, {
   "id": "2_2",
   "title": "Figure 2.2: Average performance of epsilon-greedy action-value methods on the 10-armed testbed",
   "imageNames": ["2_2_1", "2_2_2"]
