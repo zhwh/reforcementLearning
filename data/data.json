@@ -182,7 +182,7 @@
     "This example is Windy Grid World",
     "Target policy is greedy, behavior policy is epsilon-greedy",
     "I use a small alpha (step size), although in deterministic environment, alpha = 1 is optimal",
-    "epsilon = 0.2, alpha = 0.1"
+    "epsilon = 0.2, alpha = 0.1, 50 independent runs"
   ]
 }, {
   "id": "E_3",
