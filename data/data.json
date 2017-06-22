@@ -42,7 +42,7 @@
   "id": "4_3",
   "title": "Figure 4.3: The solution to the gambler’s problem",
   "imageNames": ["4_3_1", "4_3_2"],
-  "comments": ["There are many ties in the final policy, I simply break ties randomly"]
+  "comments": ["There are many ties in the final policy, I simply break ties randomly. See issue #39 for more discussions."]
 }, {
   "id": "5_1",
   "title": "Figure 5.1: Approximate state-value functions for the blackjack policy",
@@ -146,7 +146,16 @@
 }, {
   "id": "11_2",
   "title": "Figure 11.2: Baird's Counterexample",
-  "imageNames": ["11_2"]
+  "imageNames": ["11_2_1", "11_2_2"]
+}, {
+  "id": "11_6",
+  "title": "Figure 11.6: The behavior of the TDC algorithm on Baird’s counterexample",
+  "imageNames": ["11_6_1", "11_6_2"]
+}, {
+  "id": "11_7",
+  "title": "The behavior of the ETD algorithm in expectation on Baird’s counterexample",
+  "imageNames": ["11_7"],
+  "comments": ["Not exactly same, may be due to how to do expected update."]
 }, {
   "id": "12_3",
   "title": "Figure 12.3: Off-line λ-return algorithm on 19-state random walk",
@@ -156,39 +165,15 @@
   "title": "Figure 12.6: TD(λ) algorithm on 19-state random walk",
   "imageNames": ["12_6"]
 }, {
-  "id": "12_7",
-  "title": "Figure 12.7: True online TD(λ) algorithm on 19-state random walk",
-  "imageNames": ["12_7"]
+  "id": "12_8",
+  "title": "Figure 12.8: True online TD(λ) algorithm on 19-state random walk",
+  "imageNames": ["12_8"]
 }, {
-  "id": "E_1",
-  "title": "Return Specific Importance Sampling",
-  "imageNames": ["E_1_1", "E_1_2", "E_1_3", "E_1_4", "E_1_5", "E_1_6", "E_1_7"],
-  "comments": [
-    "This example is adapted from example 5.5, Infinite Variance",
-    "I made following modifications to the original example to demonstrate the advantage of return specific importance sampling",
-    "1. discount now is 0.5 instead of 1",
-    "2. the transition from state s to state s will have reward +2",
-    "3. the action BACK will lead to state s or terminal state with equal probability",
-    "In this setting, the true state value is 2",
-    "PDWIS is biased and inconsistent, so theoretically it doesn't work",
-    "CPDWIS is still biased however consistent",
-    "Reference: http://psthomas.com/papers/Thomas2015c.pdf (3.9 3.10)"
-  ]
+  "id": "12_10",
+  "title": "Figure 12.10: Sarsa(λ) with replacing traces on Mountain Car",
+  "imageNames": ["12_10"]
 }, {
-  "id": "E_2",
-  "title": "N-Step Tree Backup & N-Step Q(σ)",
-  "imageNames": ["E_2"],
-  "comments": [
-    "This example is Windy Grid World",
-    "Target policy is greedy, behavior policy is epsilon-greedy",
-    "I use a small alpha (step size), although in deterministic environment, alpha = 1 is optimal",
-    "epsilon = 0.2, alpha = 0.1, 50 independent runs"
-  ]
-}, {
-  "id": "E_3",
-  "title": "Sum of TD errors",
-  "imageNames": ["E_3"],
-  "comments": [
-    "See SumOfTDErrors.pdf for more details"
-  ]
+  "id": "12_11",
+  "title": "Figure 12.11: Summary comparison of Sarsa(λ) algorithms on Mountain Car",
+  "imageNames": ["12_11"]
 }]
